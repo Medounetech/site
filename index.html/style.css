@@ -1,0 +1,131 @@
+/* Styles de base pour le site Messire */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e3d58; /* Bleu foncé inspiré par l'image */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+}
+
+.header-text h1 {
+    font-size: 2.5em;
+    margin-top: 10px;
+}
+
+.header-text p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Section Fonctionnalités */
+.functionalities {
+    padding: 30px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.functionalities h2 {
+    font-size: 2em;
+    color: #1e3d58; /* Même bleu foncé */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.functionalities ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.functionalities li {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Section Formulaire d'Inscription */
+.subscription {
+    padding: 30px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.subscription h2 {
+    font-size: 2em;
+    color: #1e3d58;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subscription p {
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #1e3d58;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+form button:hover {
+    background-color: #16304a;
+}
+
+/* Section Contact */
+.contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+.contact a {
+    color: #1e3d58; /* Bleu foncé pour le lien */
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3d58;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue chez Messire</title>
+    <link rel="stylesheet" href="messire.css">
+</head>
+<body>
+    <header class="header">
+        <img src="IMG-20250105-WA0018.jpg" alt="Bienvenue chez Messire" class="header-image">
+        <div class="header-text">
+            <h1>Bienvenue chez Messire</h1>
+            <p>Messire est un agent immobilier passionné qui vous aide à trouver la propriété de vos rêves. Que ce soit pour la vente ou la location, nous proposons des appartements, des studios, des chambres à louer, des maisons et des terrains.</p>
+        </div>
+    </header>
+
+    <section class="functionalities">
+        <h2>Nos Fonctionnalités</h2>
+        <ul>
+            <li><strong>Vente et Location :</strong> Appartements, Studios, Chambres à louer, Maisons, Terrains.</li>
+            <li><strong>Visite Virtuelle :</strong> Découvrez nos biens immobiliers à travers une visite virtuelle interactive.</li>
+            <li><strong>Alerte Personnalisée :</strong> Recevez des alertes personnalisées sur les nouvelles propriétés correspondant à vos critères de recherche.</li>
+            <li><strong>Assistance Professionnelle :</strong> Bénéficiez d'une assistance professionnelle pour toutes vos démarches immobilières.</li>
+        </ul>
+    </section>
+
+    <!-- Formulaire d'inscription pour alertes personnalisées -->
+    <section class="subscription">
+        <h2>Inscrivez-vous pour des alertes personnalisées</h2>
+        <p>Restez informé des nouvelles propriétés qui correspondent à vos critères de recherche en vous inscrivant ici.</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="criteria">Critères de recherche :</label>
+            <textarea id="criteria" name="criteria" rows="4" placeholder="Ex : Appartement à louer, 2 chambres, à Sicap Mbao"></textarea>
+            
+            <button type="submit">S'inscrire</button>
+        </form>
+    </section>
+
+    <section class="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour plus d'informations, contactez Messire :</p>
+        <p><strong>Téléphone :</strong> 772602112 / 761836019</p>
+        <p><strong>Email :</strong> <a href="mailto:dembatop644@gmail.com">dembatop644@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Messire Immobilier. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
